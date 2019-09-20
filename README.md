@@ -1,3 +1,3 @@
-# angular-pvqls1
+# Angular Flickr Photo Search
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-pvqls1)
+A simple Angular 8 photo search using flickr api.
