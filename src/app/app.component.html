@@ -1,8 +1,8 @@
   <nav class="navbar sticky-top text-white">
     <div class="container">
       <a class="navbar-brand">
-        <img src="../favicon.ico" width="30" height="30" class="d-inline-block align-top" alt="">
-        Flickr Photo Search
+        <img src="https://cdn.jsdelivr.net/gh/carluhsheyn/angular-photo-search@master/src/favicon.ico" width="30" height="30" class="d-inline-block align-top" alt="">
+        Angular Photo App
       </a>
       <form class="form-inline">
         <p class="my-auto mr-3 text-danger">{{ inputRequired }}</p>
@@ -13,6 +13,10 @@
   </nav>
 
   <div class="container ">
+    <div class="search-container">
+      <h1 class="">Search something.</h1>
+    </div>
+
     <div class="d-flex mt-4" *ngIf="totalResults > 0">
       <p class="mb-0">Results for <i>"{{ inputResult }}"</i></p>
       <p class="ml-auto mb-0 text-info">Showing {{ totalResults | number }} results</p>
