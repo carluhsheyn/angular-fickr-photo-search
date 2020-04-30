@@ -16,7 +16,7 @@
     "bootstrap": "4.3.1",
     "core-js": "2.6.9",
     "dist": "0.1.2",
-    "jquery": "3.4.1",
+    "jquery": "3.5.0",
     "ng-bootstrap": "1.6.3",
     "ngx-bootstrap": "5.2.0",
     "node": "12.10.0",
